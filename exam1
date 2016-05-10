@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="test"></p>
+<script>
+var i = 0;
+while (i < 5)
+{
+  document.getElementById("test").innerHTML += i + "&nbsp"
+i++;     
+}
+</script>
+</body>
+</html>
